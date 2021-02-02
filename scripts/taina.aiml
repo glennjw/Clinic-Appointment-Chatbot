@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+      <category>
+        <pattern>MY NAME IS * </pattern>
+        <template>
+          Hi <star index="1"/>, I am TAINA!
+        </template>
+      </category>
+      
+      <category>
+        <pattern>WHAT TIME IS IT</pattern>
+        <template>The local time is: <system>date</system></template>
+      </category>
+ 
+      <category>
+        <pattern>WHO IS AVAILABLE AT * ON *</pattern>
+        <template>
+	  <system>python who_avai.py '<star index="1"/>' '<star index="2"/>' </system>
+	</template>
+      </category>
+      
+      <category>
+        <pattern>WHEN IS * AVAILABLE ON * </pattern>
+        <template>
+          <system>python when_nurse.py '<star index="1"/>' '<star index="2"/>' </system>
+        </template>
+      </category>
+      
+      <category>
+        <pattern>DO YOU HAVE * NURSE NAMED *</pattern>
+        <template>
+          <system>python have_nurse.py '<star index="2"/>'</system>
+	</template>
+      </category>
+      
+      
+</aiml>
+

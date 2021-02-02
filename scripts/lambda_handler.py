@@ -16,10 +16,10 @@ from urlparse import parse_qs
 bot = aiml.Kernel()
 bot.learn("taina.aiml")
 
-connection = pymysql.connect(host='52.70.223.35',
-                             user='clinicuser',
-                             password='sparky19',
-                             db='ClinicDB')
+connection = pymysql.connect(host='IP',
+                             user='user',
+                             password='pwd',
+                             db='DB')
 cursor = connection.cursor()
 
 

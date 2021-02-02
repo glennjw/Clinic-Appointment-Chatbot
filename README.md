@@ -9,7 +9,9 @@
   
 ## Results
 
-
+<div align="center">
+  <img src="https://github.com/glennjw/Clinic-Appointment-Chatbot/main/Results.png">
+</div>
 
 
 

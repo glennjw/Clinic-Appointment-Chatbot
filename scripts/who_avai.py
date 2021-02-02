@@ -5,10 +5,10 @@ import pymysql.cursors
 from datetime import datetime
 
 
-connection = pymysql.connect(host='52.70.223.35',
-                             user='clinicuser',
-                             password='sparky19',
-                             db='ClinicDB')
+connection = pymysql.connect(host='IP',
+                             user='user',
+                             password='pwd',
+                             db='DB')
 cursor = connection.cursor()
 
 def whois(rectime, recdate):

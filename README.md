@@ -10,7 +10,7 @@
 ## Results
 
 <div align="center">
-  <img src="https://github.com/glennjw/Clinic-Appointment-Chatbot/main/Results.png">
+  <img src="https://github.com/glennjw/Clinic-Appointment-Chatbot/blob/main/Results.png">
 </div>
 
 

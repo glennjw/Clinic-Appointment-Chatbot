@@ -5,10 +5,10 @@ import pymysql.cursors
 from datetime import datetime
 
 
-connection = pymysql.connect(host='52.70.223.35',
+connection = pymysql.connect(host='IP',
                              user='clinicuser',
-                             password='sparky19',
-                             db='ClinicDB')
+                             password='pwd',
+                             db='DB_name')
 cursor = connection.cursor()
 
 def search_nurse(target):
